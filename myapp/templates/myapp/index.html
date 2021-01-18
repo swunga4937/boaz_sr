@@ -1,0 +1,521 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Grayrids">
+    <title>Boaz SR Progect</title>
+
+    <!-- Bootstrap CSS -->
+    
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> 
+
+
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/line-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nivo-lightbox.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+
+  </head>
+
+  <body>
+
+    <!-- Header Section Start -->
+    <header id="home" class="hero-area-2">
+      <div class="overlay"></div>
+      <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar menu-bg">
+        <div class="container">
+          <a href="#"  class="navbar-brand"><img src="{% static 'img/BOAZ_title.png' %}" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="lni-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#nas">NAS System</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#esrgan">ESRGAN</a>
+              </li>
+	            <li class="nav-item">
+                <a class="nav-link page-scroll" href="#members">Members</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#others">Others</a>
+              </li>
+              <!--li class="nav-item">
+                <a class="nav-link page-scroll" href="#FAQ">FAQ</a>
+              </li-->
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+	<div class="contents2">
+	  <div class="col-lg-12 col-md-12 col-xs-12">
+	    <h2 class="head-title">BOAZ SR Porject <br>경기는 계속되어야 한다</h2>
+	  </div>
+	</div>
+
+	<div class="row space-100">
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <div class="contents3">
+
+              <p style="font-size:170%;">    최근 코로나로 인해 일명 <b>집콕러</b> 들이 늘어나면서 유튜브나 넷플릭스와 같은 비디오 스트리밍 서비스의 이용률이 늘어나고 있다.<!-- and <b>utilizes</b> client computing power.-->
+             <br>이용자들은 비디오 스트리밍 서비스를 이용할 때에 네트워크 연결이 불안정할 때에 영상의 화질이 낮아진다거나, 영상의 화질을 고화질로 설정할 경우 영상이 끊기는 현상을 경험해본 적이 있을 것이다.
+<!--highly depends on available bandwidth.<br><br>    -->
+		  <!--In NAS, a server provides video along with corresponding content-aware super-resolution DNNs. A client then streams these together and applies the DNNs on video content to enhance its quality.<br><br>-->
+	          <br>우리는 이와 같은 상황에서 영상 시청을 보다 깨끗하게 할 수 있는 방안이 없을까 고민하였고, 비디오 영상 화질 개선이라는 주제를 선택하게 되었다. </p>
+              <div class="header-button">
+                <a target="_blank"  href="https://www.usenix.org/sites/default/files/conference/protected-files/osdi18_slides_yeo.pdf" class="btn btn-border-filled">Slide</a>
+		            <a target="_blank"  href="#"  class="btn btn-border-filled">Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <div class="intro-img">
+              <img src="{% static 'img/main.png' %}" alt="">
+            </div>
+          </div>
+	  <!-- added   -->
+	  <!--div class="col-lg-12 col-md-12 col-xs-12">
+
+	    <div class="header-button">
+	      <a href="#" class="btn btn-border-filled">Research paper</a>
+	      <a href="#" class="btn btn-border-filled">Presentation</a>
+	      <a href="#" class="btn btn-border-filled">Code</a>
+
+	    </div>
+
+	  </div-->
+        </div>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+
+    <div id="nas" class="section">
+      <div class="container">
+    <div class="section-header">
+          <h2 class="section-title">NAS System</h2>
+      <div class="download-text">
+              <p style="font-size:140%;">적응형 스트리밍 서비스 기반 화질 개선 모델</p>
+            </div>
+        </div>
+
+        <div class="row mt">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="text-wrapper wow fadeInRight" data-wow-delay="0.9s">
+              <div>
+                <p class="btn btn-subtitle">Result</p>
+              </div>
+            </div>
+          </div>
+           <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="img-thumb wow fadeInLeft" data-wow-delay="1.2s">
+              <!--<img class="img-fluid" src="img/features/img2.png" alt="">-->
+              <video src="https://dy0f2u7nv8r9q.cloudfront.net/%5BSHANA%5Dhighlight_all.mp4" controls="controls" \
+                width="100%" poster="./video/hl_thumbnail.png" preload='auto'>
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features Section End -->
+
+    <!-- Features Section Start -->
+    <div id="esrgan" class="section">
+      <div class="container">
+    <div class="section-header">
+          <h2 class="section-title">ESRGAN</h2>
+      <div class="download-text">
+              <p style="font-size:140%;"> Super Resolution 분야의 GAN 모델 중 하나, 향상된 SRGAN 이라고도 한다.
+                <br> 이번 프로젝트에서 실시간 화질 개선 모델을 구현하기 위해 활용한 모델이다.
+                <br> 모델의 용량이 적은 편이고, 질감표현이 잘 된다는 장점이 있다.
+                <br> 우리는 실시간 화질 개선 영상 모델을 위해 데이터셋의 수집과 전처리에서 다양한 시도와 고민을 하였다. </p>
+            </div>
+        </div>
+
+        <div class="row mt">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="text-wrapper wow fadeInRight" data-wow-delay="0.9s">
+              <div>
+                <p class="btn btn-subtitle">Result</p>
+              </div>
+            </div>
+          </div>
+           <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="img-thumb wow fadeInLeft" data-wow-delay="1.2s">
+              <!--<img class="img-fluid" src="img/features/img2.png" alt="">-->
+              <!--<video src="https://youtu.be/Gl2fHkZ4Few?t=2" controls="controls" \
+                width="100%" poster="./video/hl_thumbnail.png" preload='auto'>
+              </video>-->
+              <iframe width="100%" height="650px" src="https://www.youtube.com/embed/vd7eg3IqHhA" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features Section End -->
+
+
+
+    <!-- Team section Start -->
+    <section id="members" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Members</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-2 col-md-6 col-xs-12">
+            <div class="single-team wow fadeInUp" data-wow-delay="0.2s">
+              <div class="team-thumb">
+                <!-- <a target="_blank" href="#"> <img src="file/yeo_hyun_ho.jpg"  alt=""></a> -->
+                <!--ul class="social-list">
+                  <li class="facebook"><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                  <li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
+                  <li class="google-plus"><a href="#"><i class="lni-google-plus"></i></a></li>
+                  <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
+                </ul-->
+              </div>
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">YoungHun Kim</h4>
+                  <p> </p>
+		  <p>Dankook Univ.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-xs-12">
+            <div class="single-team wow fadeInUp" data-wow-delay="0.3s">
+              <div class="team-thumb">
+                <!-- <a target="_blank" href="#"> <img src="file/.jpg" alt=""></a> -->
+                <!--ul class="social-list">
+                  <li class="facebook"><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                  <li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
+                  <li class="google-plus"><a href="#"><i class="lni-google-plus"></i></a></li>
+                  <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
+                </ul-->
+              </div>
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">HyeongJu Jang</h4>
+                  <p></p>
+		  <p>Seoul Women's Univ.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-xs-12">
+            <div class="single-team wow fadeInUp" data-wow-delay="0.4s">
+              <div class="team-thumb">
+                <!-- <a target="_blank" href="#"> <img src="file/jaehongkim.jpg"  alt=""></a> -->
+                <!--ul class="social-list">
+                  <li class="facebook"><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                  <li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
+                  <li class="google-plus"><a href="#"><i class="lni-google-plus"></i></a></li>
+                  <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
+                </ul-->
+              </div>
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">DongWook Jung</h4>
+                  <p> </p>
+		  <p>Hanyang Univ.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+	  <div class="col-lg-2 col-md-6 col-xs-12">
+            <div class="single-team wow fadeInUp" data-wow-delay="0.5s">
+              <div class="team-thumb">
+                <!-- <a target="_blank" href="#"> <img src="file/dongsuhan.jpg"  alt=""> </a> -->
+                <!--ul class="social-list">
+                  <li class="facebook"><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                  <li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
+                  <li class="google-plus"><a href="#"><i class="lni-google-plus"></i></a></li>
+                  <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
+                </ul-->
+              </div>
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">SeungA Hong</h4>
+                  <p></p>
+		  <p>Seoul Women's Univ.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team section End -->
+
+
+    <!-- download Section Start -->
+  <div id="others" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Others</h2>
+        <div class="download-text">
+          <p style="font-size:140%;"> 프로젝트를 진행하면서 다양한 SR 모델에 대한 연구도 진행하였다.
+            <br> 이 부분에는 발표에 들어가지 않았던 다양한 실험 결과들이 담겨있다. </p>
+        </div>
+      </div>
+
+
+      <div class="row mt">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="text-wrapper wow fadeInRight" data-wow-delay="0.9s">
+            <div>
+              <p class="btn btn-subtitle">SRCNN</p>
+            </div>
+          </div>
+        </div>
+         <div class="col-lg-12 col-md-12 col-sm-12">
+          <img class="img-fluid" src="{% static 'img/srcnn.PNG' %}" alt="" width="70%">
+        </div>
+      </div>
+
+      <div class="row mt">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="text-wrapper wow fadeInRight" data-wow-delay="0.9s">
+            <div>
+              <p class="btn btn-subtitle">ESPCN</p>
+            </div>
+          </div>
+        </div>
+         <div class="col-lg-12 col-md-12 col-sm-12">
+          <img class="img-fluid" src="{% static 'img/espcn.PNG' %}" alt="" width="70%">
+        </div>
+      </div>
+
+      <div class="row mt">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="text-wrapper wow fadeInRight" data-wow-delay="0.9s">
+            <div>
+              <p class="btn btn-subtitle">SRGAN</p>
+            </div>
+          </div>
+        </div>
+         <div class="col-lg-12 col-md-12 col-sm-12">
+          <img class="img-fluid" src="{% static 'img/srgan.PNG' %}" alt="" width="70%">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <!-- Blog Section -->
+    <!--<section id="blog" class="section">-->
+      <!-- Container Starts -->
+      <!--<div class="container">
+         <div class="section-header">
+          <h2 class="section-title">Press</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">-->
+            <!-- Blog Item Starts -->
+            <!--<div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="https://m.news.naver.com/read.nhn?mode=LSD&mid=sec&sid1=101&oid=025&aid=0002860051">
+                  <img src="img/blog/news1.png" alt="" height="240" width="360">
+                </a>-->
+                <!--<div class="author-img">
+                  <img src="img/blog/author.png" alt="">
+                </div> -->
+              <!--</div>
+              <div class="blog-item-text">
+                <h3><a href="https://m.news.naver.com/read.nhn?mode=LSD&mid=sec&sid1=101&oid=025&aid=0002860051">버퍼링 없애는 인공지능...인터넷 느려도 고화질 영상 보여준다</a></h3>
+                <div class="author">
+                  <span class="name"><a href="#">Posted by 중앙일보</a></span>
+                  <span class="date float-right">30 October, 2018</span>
+                </div>
+              </div>
+            </div>-->
+            <!-- Blog Item Wrapper Ends-->
+          <!--</div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">-->
+            <!-- Blog Item Starts -->
+            <!--<div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="http://www.etnews.com/20181030000362">
+                  <img src="img/blog/news2.png" alt="" height="240" width="360">
+                </a>-->
+                <!--<div class="author-img">
+                  <img src="img/blog/author.png" alt="">
+                </div> -->
+              <!--div>
+              <div class="blog-item-text">
+                <h3><a href="http://www.etnews.com/20181030000362">인터넷 느려도 스트리밍 영상 본다...KAIST, 딥러닝으로 가능케 해</a></h3>
+                <div class="author">
+                  <span class="name"><a href="#">Posted by 전자신문</a></span>
+                  <span class="date float-right">30 October, 2018</span>
+                </div>
+              </div>
+            </div>-->
+            <!-- Blog Item Wrapper Ends-->
+          <!--</div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">-->
+            <!-- Blog Item Starts -->
+            <!--<div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="http://news.heraldcorp.com/view.php?ud=20181030000038">
+                  <img src="img/blog/news3.png" alt="" height="240" width="360">
+                </a>-->
+                <!--<div class="author-img">
+                  <img src="img/blog/news3.png" alt="">
+                </div> -->
+              <!--</div>
+              <div class="blog-item-text">
+                <h3><a href="http://news.heraldcorp.com/view.php?ud=20181030000038">인터넷 느려도 고화질 영상시청 가능해진다</a></h3>
+                <div class="author">
+                  <span class="name"><a href="#">Posted by 헤럴드경제</a></span>
+                  <span class="date float-right">30 October, 2018</span>
+                </div>
+              </div>
+            </div>-->
+            <!-- Blog Item Wrapper Ends-->
+          <!--</div>
+        </div>
+      </div>
+    </section>-->
+    <!-- blog Section End -->
+
+
+   <!-- Features Section Start -->
+   <!--div id="FAQ" class="section">
+      <div class="container">
+	<div class="section-header">
+          <h2 class="section-title">Frequently Asked Questions</h2>
+        </div>
+        <div class="row justify-content-center">
+         <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="text-wrapper wow fadeInLeft" data-wow-delay="0.6s">
+	      <div>
+                <p class="btn btn-subtitle">Question 1</p>
+                <h3>How does it work?</h3>
+                <p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically architect adaptive e-tailers after sustainable total linkage.</p>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt justify-content-center">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="text-wrapper wow fadeInRight" data-wow-delay="0.9s">
+              <div>
+                <p class="btn btn-subtitle">Question 2</p>
+                <h3>Do you release codes?</h3>
+                <p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically architect adaptive e-tailers after sustainable total linkage.</p>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div-->
+
+    <!-- Features Section End -->
+
+
+    <!-- Footer Section Start -->
+    <footer>
+      <!-- Footer Area Start -->
+      <section class="footer-Content">
+        <div class="container">
+          <div class="row">
+           <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+              <div class="widget">
+                <!--h3 class="block-title"><a target="_blank" href="http://ina.kaist.ac.kr/~dongsuh/">INA LAB, School of Electrical Engineering, KAIST </h3-->
+
+                <!--<ul class="menu">
+                  <h3 class="block-title"><b>Location</b>: KAIST Building: N1, Office: 817
+                  291 Daehak-ro, Yuseong-gu, Daejeon 305-701, Korea</h3>
+                </ul>-->
+                <h3 class="block-title"><b>Contact</b>: vanessa7116@gmail.com</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Copyright Start  -->
+        <div class="copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="site-info float-left">
+                  <p>&copy; 2020 - Designed by <a href="http://uideck.com" rel="nofollow">UIdeck</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- Copyright End -->
+      </section>
+      <!-- Footer area End -->
+
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Go To Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="lni-chevron-up"></i>
+    </a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="{% static 'js/jquery-min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.js' %}"></script>
+    <script src="{% static 'js/jquery.mixitup.js' %}"></script>
+    <script src="{% static 'js/jquery.nav.js' %}"></script>
+    <script src="{% static 'js/scrolling-nav.js' %}"></script>
+    <script src="{% static 'js/jquery.easing.min.js' %}"></script>
+    <script src="{% static 'js/wow.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'js/nivo-lightbox.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/waypoints.min.js' %}"></script>
+    <script src="{% static 'js/form-validator.min.js' %}"></script>
+    <script src="{% static 'js/contact-form-script.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+  </body>
+</html>
